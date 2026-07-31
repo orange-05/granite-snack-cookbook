@@ -6,11 +6,11 @@
 ![Fork](https://img.shields.io/badge/Fork-of_ibm--granite--community/granite--snack--cookbook-blue?style=for-the-badge)
 ![Upstream Stars](https://img.shields.io/github/stars/ibm-granite-community/granite-snack-cookbook?style=for-the-badge&label=Upstream%20Stars)
 
-> **Granite Snack Cookbook** — Easily consumable recipes (Python notebooks) showcasing IBM Granite model capabilities. This is a fork of the official IBM Granite Community cookbook.
+> **Granite Snack Cookbook** -- Easily consumable recipes (Python notebooks) showcasing IBM Granite model capabilities. This is a fork of the official IBM Granite Community cookbook.
 
 ---
 
-## ⚠️ **This is a Fork**
+## This is a Fork
 
 **Upstream Repository:** https://github.com/ibm-granite-community/granite-snack-cookbook
 
@@ -24,7 +24,7 @@ This fork exists for:
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The **Granite Snack Cookbook** is a collection of Jupyter notebooks ("recipes") demonstrating the capabilities of IBM's **Granite** family of foundation models. Each notebook is a self-contained, runnable example covering tasks like:
 
@@ -38,7 +38,7 @@ The **Granite Snack Cookbook** is a collection of Jupyter notebooks ("recipes") 
 
 ---
 
-## 📚 Recipe Categories (Upstream)
+## Recipe Categories (Upstream)
 
 | Category | Description | Example Notebooks |
 |----------|-------------|-------------------|
@@ -51,7 +51,7 @@ The **Granite Snack Cookbook** is a collection of Jupyter notebooks ("recipes") 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -64,36 +64,36 @@ The **Granite Snack Cookbook** is a collection of Jupyter notebooks ("recipes") 
 
 ---
 
-## 📁 Project Structure (Upstream)
+## Project Structure (Upstream)
 
 ```text
 granite-snack-cookbook/
-├── recipes/
-│   ├── RAG/
-│   │   ├── RAG_with_Langchain.ipynb
-│   │   ├── RAG_with_LlamaIndex.ipynb
-│   │   └── ...
-│   ├── Function-Calling/
-│   │   └── Function_Calling.ipynb
-│   ├── Summarize/
-│   │   └── Summarize.ipynb
-│   ├── AI-Agents/
-│   │   ├── ReAct_Agent.ipynb
-│   │   └── ...
-│   ├── Code-Generation/
-│   ├── Fine-Tuning/
-│   └── ...
-├── assets/                 # Shared data, images
-├── requirements.txt        # Common dependencies
-├── environment.yml         # Conda environment
-├── CONTRIBUTING.md         # Upstream contribution guide
-├── LICENSE                 # CC BY 4.0
-└── README.md               # This file (fork version)
++-- recipes/
+|   +-- RAG/
+|   |   +-- RAG_with_Langchain.ipynb
+|   |   +-- RAG_with_LlamaIndex.ipynb
+|   |   +-- ...
+|   +-- Function-Calling/
+|   |   +-- Function_Calling.ipynb
+|   +-- Summarize/
+|   |   +-- Summarize.ipynb
+|   +-- AI-Agents/
+|   |   +-- ReAct_Agent.ipynb
+|   |   +-- ...
+|   +-- Code-Generation/
+|   +-- Fine-Tuning/
+|   +-- ...
++-- assets/                 # Shared data, images
++-- requirements.txt        # Common dependencies
++-- environment.yml         # Conda environment
++-- CONTRIBUTING.md         # Upstream contribution guide
++-- LICENSE                 # CC BY 4.0
++-- README.md               # This file (fork version)
 ```
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.9+
@@ -125,18 +125,18 @@ jupyter lab
 2. **Configure credentials** (first cells):
    ```python
    # WatsonX
-   WATSONX_APIKEY = "your_key"
+   WATSONX_APIKEY = "***"
    WATSONX_URL = "https://us-south.ml.cloud.ibm.com"
    PROJECT_ID = "your_project_id"
    
    # OR Ollama (local)
    # ollama pull granite3.1-dense:8b
    ```
-3. Run cells sequentially (`Shift+Enter`)
+3. Run cells sequentially (Shift+Enter)
 
 ---
 
-## 🔑 Model Access Options
+## Model Access Options
 
 | Platform | Setup | Best For |
 |----------|-------|----------|
@@ -147,7 +147,7 @@ jupyter lab
 
 ---
 
-## 🔄 Keeping This Fork Updated
+## Keeping This Fork Updated
 
 ```bash
 # Add upstream (once)
@@ -162,7 +162,7 @@ git push origin main
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 **Contribute to upstream!** They welcome:
 - New recipes for Granite capabilities
@@ -174,15 +174,15 @@ See upstream [CONTRIBUTING.md](https://github.com/ibm-granite-community/granite-
 
 ---
 
-## 📄 License
+## License
 
-**Creative Commons Attribution 4.0 International (CC BY 4.0)** — Same as upstream.
+**Creative Commons Attribution 4.0 International (CC BY 4.0)** -- Same as upstream.
 
 You may share and adapt with attribution to **IBM Granite Community**.
 
 ---
 
-## 👤 Fork Owner
+## Fork Owner
 
 **Karthikeyan K** (BCA Analytics)
 - GitHub: [@orange-05](https://github.com/orange-05)
@@ -190,4 +190,4 @@ You may share and adapt with attribution to **IBM Granite Community**.
 
 ---
 
-*Forked for Granite model exploration — contribute upstream!* — Last synced July 2026
+*Forked for Granite model exploration -- contribute upstream!* -- Last synced July 2026
